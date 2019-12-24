@@ -1,7 +1,7 @@
 {
-  "name": "stylint-loader",
+  "name": "better-stylint-loader",
   "version": "1.0.0",
-  "description": "stylint loader (for webpack)",
+  "description": "a better stylint loader (that supports webpack 4)",
   "keywords": [
     "stylint",
     "lint",
@@ -10,20 +10,20 @@
     "stylus",
     "linter"
   ],
-  "homepage": "https://github.com/guerrero/stylint-loader#readme",
+  "homepage": "https://github.com/Casperd88/stylint-loader#readme",
   "bugs": {
-    "url": "https://github.com/guerrero/stylint-loader/issues"
+    "url": "https://github.com/Casperd88/stylint-loader/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "Alex Guerrero",
-    "email": "alexguerrero1092@gmail.com",
-    "url": "https://github.com/guerrero"
+    "name": "Casper Deseyne",
+    "email": "casperdeseyne@gmail.com",
+    "url": "https://github.com/Casperd88"
   },
   "files": [
     "index.js"
   ],
-  "repository": "guerrero/stylint-loader",
+  "repository": "Casperd88/stylint-loader",
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && mocha"
@@ -32,7 +32,7 @@
     "stylint": "^1.2.2"
   },
   "dependencies": {
-    "loader-utils": "^0.2.11",
+    "loader-utils": "^1.2.3",
     "object-assign": "^3.0.0"
   },
   "devDependencies": {

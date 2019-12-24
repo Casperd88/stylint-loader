@@ -1,10 +1,3 @@
-# stylint-loader [![Build Status](https://travis-ci.org/guerrero/stylint-loader.svg?branch=master)](https://travis-ci.org/guerrero/stylint-loader)
-
-> stylint loader for [webpack](http://webpack.github.io/)
-
-**UNMAINTAINED** Look at the [issue #9](https://github.com/guerrero/stylint-loader/issues/9)
-
-
 ## Install
 
 Install the stylint `peerDependency` manually (only if you're using npm v3 or earlier)
@@ -32,7 +25,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.styl$/, 
+        test: /\.styl$/,
         loader: 'stylint'
       },
       {
@@ -53,7 +46,7 @@ module.exports = {
   module: {
     preLoaders: [
       {
-        test: /\.styl$/, 
+        test: /\.styl$/,
         loader: 'stylint'
       }
     ]
